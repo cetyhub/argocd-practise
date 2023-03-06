@@ -1,5 +1,5 @@
 apiVersion: apps/v1
-kind: Deployment
+kind: Deploymentxx
 metadata:
   annotations:
     kompose.cmd: kompose convert
@@ -9,7 +9,7 @@ metadata:
     io.kompose.service: restaurant
   name: restaurant
 spec:
-  replicas: 4
+  replicas: 2
   selector:
     matchLabels:
       io.kompose.service: restaurant
